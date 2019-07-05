@@ -14,7 +14,7 @@ public class Constants {
 	
 	//测试excle文件
 	public class excleFile{
-		public static final String filepath = "E:\\Users\\TGHZ\\eclipse-workspace\\KeyWordAppTest\\data\\register.xlsx";
+		public static final String filepath = "../KeyWordAppTest/data/register.xlsx";
 	}
 	
 	//测试调度文件
