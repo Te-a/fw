@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="112294" started-at="2019-07-05T06:31:54Z" finished-at="2019-07-05T06:33:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="112294" started-at="2019-07-05T06:31:54Z" finished-at="2019-07-05T06:33:46Z">
+      <class name="com.shijie.testScripts.TestRegister">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shijie.testScripts.TestRegister@5d20e46]" name="setUp" is-config="true" duration-ms="21883" started-at="2019-07-05T06:31:54Z" finished-at="2019-07-05T06:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_register_sucess()[pri:0, instance:com.shijie.testScripts.TestRegister@5d20e46]" name="test_register_sucess" duration-ms="86742" started-at="2019-07-05T06:32:16Z" finished-at="2019-07-05T06:33:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_register_sucess -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shijie.testScripts.TestRegister@5d20e46]" name="tearDown" is-config="true" duration-ms="3620" started-at="2019-07-05T06:33:43Z" finished-at="2019-07-05T06:33:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.shijie.testScripts.TestRegister -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
