@@ -29,7 +29,7 @@ public class Action {
 			try {
 				Thread.sleep(Constants.testControl.elementInspectInterval);
 			} catch (InterruptedException e1) {
-				testRegister.testResult = false;
+				TestRegister.testResult = false;
 				e1.printStackTrace();
 			}
 			mobileElement.click();
