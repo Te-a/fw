@@ -42,7 +42,7 @@ public class BaseActivity {
 
 		cap.setCapability("unicodeKeyboard", Constants.Vivo_x20.unicodeKeyboard);
 		cap.setCapability("noSign", Constants.Vivo_x20.noSign);
-		driver = new AndroidDriver<AndroidElement>(new URL("http://0.0.0.0:4723/wd/hub"), cap);
+		driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 	
