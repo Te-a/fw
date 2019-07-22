@@ -13,17 +13,26 @@ import com.shijie.util.Constants;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
+import io.appium.java_client.service.local.AppiumServiceBuilder;
+import io.appium.java_client.service.local.flags.GeneralServerFlag;
 
 public class BaseActivity {
 	public static AndroidDriver<AndroidElement> driver;
 	public static Logger logger = Logger.getLogger(BaseActivity.class.getName());
-//	private static AppiumDriverLocalService service;
+	private static AppiumDriverLocalService service;
+	private static AppiumServiceBuilder builder;
 	
 	@BeforeClass
 	public void setUp() throws Exception {
 		logger.info("-----------------测试开始-----------------");
-//		service = AppiumDriverLocalService.buildDefaultService();
-//		service.start();
+		builder = new AppiumServiceBuilder();
+		builder.withIPAddress("127.0.0.1");
+		builder.usingPort(4723);
+		builder.withArgument(GeneralServerFlag.SESSION_OVERRIDE);
+		builder.withArgument(GeneralServerFlag.LOG_LEVEL,"error");
+		service = AppiumDriverLocalService.buildService(builder);
+		service.start();
+		logger.info("appium启动");
 //		if(service == null||!service.isRunning()) {
 //			throw new AppiumServerHasNotBeenStartedLocallyException("An appium service node is not started");
 //		}
@@ -50,9 +59,9 @@ public class BaseActivity {
 	public void tearDown() {
 		logger.info("-----------------测试结束-----------------");
 		driver.quit();
-//		if(service != null) {
-//			service.stop();
-//		}
+		if(service != null) {
+			service.stop();
+		}
 	}
 	
 	public AndroidDriver<AndroidElement> getDriver(){
