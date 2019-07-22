@@ -12,6 +12,17 @@ public class Constants {
 		public static final String noSign = "True";
 	}
 	
+	public class Honor_v9 {
+		public static final String deviceName = "honor_v9";
+		public static final String udid = "6EBDU17308002466";
+		public static final String platformVersion = "7.0";
+		public static final String platformName = "Android";
+		public static final String appPackage = "io.selendroid.testapp";
+		public static final String appActivity = ".HomeScreenActivity";
+		public static final String unicodeKeyboard = "True";
+		public static final String noSign = "True";
+	}
+	
 	//测试excle文件
 	public class excleFile{
 		public static final String filepath = "../KeyWordAppTest/data/register.xlsx";
