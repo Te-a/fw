@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="105990" started-at="2019-07-09T08:35:22Z" finished-at="2019-07-09T08:37:08Z">
+  <suite name="Default suite" duration-ms="99445" started-at="2019-07-22T08:58:30Z" finished-at="2019-07-22T09:00:09Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="105990" started-at="2019-07-09T08:35:22Z" finished-at="2019-07-09T08:37:08Z">
+    <test name="Default test" duration-ms="99445" started-at="2019-07-22T08:58:30Z" finished-at="2019-07-22T09:00:09Z">
       <class name="com.shijie.testScripts.TestRegister">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shijie.testScripts.TestRegister@5d20e46]" name="setUp" is-config="true" duration-ms="17209" started-at="2019-07-09T08:35:22Z" finished-at="2019-07-09T08:35:39Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shijie.testScripts.TestRegister@3d36e4cd]" name="setUp" is-config="true" duration-ms="14917" started-at="2019-07-22T08:58:30Z" finished-at="2019-07-22T08:58:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test_register_sucess()[pri:0, instance:com.shijie.testScripts.TestRegister@5d20e46]" name="test_register_sucess" duration-ms="85912" started-at="2019-07-09T08:35:39Z" finished-at="2019-07-09T08:37:05Z">
+        <test-method status="PASS" signature="test_register_sucess()[pri:0, instance:com.shijie.testScripts.TestRegister@3d36e4cd]" name="test_register_sucess" duration-ms="82002" started-at="2019-07-22T08:58:45Z" finished-at="2019-07-22T09:00:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_register_sucess -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shijie.testScripts.TestRegister@5d20e46]" name="tearDown" is-config="true" duration-ms="2832" started-at="2019-07-09T08:37:05Z" finished-at="2019-07-09T08:37:08Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shijie.testScripts.TestRegister@3d36e4cd]" name="tearDown" is-config="true" duration-ms="2504" started-at="2019-07-22T09:00:07Z" finished-at="2019-07-22T09:00:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.shijie.testScripts.TestRegister -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
